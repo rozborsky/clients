@@ -1,0 +1,14 @@
+SQLite
+CREATE TABLE [clients] (
+[id] INTEGER  PRIMARY KEY NOT NULL,
+[name] TEXT  NULL,
+[surname] TEXT  NULL,
+[patronymic] TEXT  NULL,
+[phone] INTEGER  NULL
+)
+
+CREATE TABLE [phones] (
+[number] INTEGER  NULL PRIMARY KEY,
+[type] TEXT  NULL,
+[comment] TEXT  NULL
+)
